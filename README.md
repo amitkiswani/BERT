@@ -16,6 +16,6 @@ This code snippet demonstrates how to use TensorFlow Hub to access and utilize a
 
 **Encoder Outputs:** The BERT model produces encoder outputs, which include information from all encoder layers. Since the BERT base model used here has 12 encoder layers, the length of encoder outputs is 12.
 
-**Sequence Output: **The sequence output is the output of the last encoder layer and contains contextualized representations of each token in the input text sequence.
+**Sequence Output:** The sequence output is the output of the last encoder layer and contains contextualized representations of each token in the input text sequence.
 
 Overall, this code demonstrates how to preprocess text data, encode it using a pre-trained BERT model, and access various outputs such as sequence representations and pooled representations for downstream tasks like text classification or sequence labeling.
